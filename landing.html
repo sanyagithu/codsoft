@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML CSS Landing Page</title>
+    <style>
+        body{
+            font-family: 'Times New Roman', Times, serif, ;
+            margin: 2;
+            padding: 2;
+        }
+
+        header {
+            background-color: skyblue;
+            color:white;
+            padding: 30px;
+            font-size: 22px;
+        }
+
+        header h1 {
+            margin: 0;
+        }
+        .menu-bar {
+            position: fixed;
+            top: 0;
+            right: 0;
+            background-color:skyblue;
+            padding: 15px;
+            margin: 15px;
+            font-size: 22px;
+        }
+        
+        .menu {
+            list-style: none;
+            padding: 0;
+            margin: 0;
+        }
+        
+        .menu li {
+            margin-bottom: 10px;
+        }
+        
+        .menu li a {
+            text-decoration: none;
+            color:#fff;
+            font-size: 15px;
+        }
+        
+        .menu li a:hover {
+            color: #FF5733;
+        }
+
+        .hero {
+            background-image: url('yoga.webp');
+            background-size: cover;
+            height: 700px;
+            display: flex;
+            align-items: upper;
+            justify-content: center;
+            text-align: center;
+            color:whitesmoke;
+        }
+
+        .hero h2 {
+            font-size: 3rem;
+            margin: 10px;
+        }
+
+        .hero p {
+            font-size: 2rem;
+            margin: 10px;
+        }
+        .testimonial {
+            padding: 30px;
+            text-align: center;
+            background-color: #f9f9f9;
+        }
+
+        .testimonial p {
+            font-style: italic;
+        }
+
+        .contact {
+            background-color: #f2f2f2;
+            padding: 30px;
+            text-align: center;
+        }
+
+        .footer {
+            background-color: #333;
+            color: #fff;
+            padding: 20px;
+            text-align: center;
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <h1>Health Fitness</h1>
+        <div class="menu-bar">
+            <ul class="menu">
+        <nav>
+                <a href="http://127.0.0.1:5500/landing.html#">Home</a>
+                <a href="#">About us</a>
+                <a href="#">Our services</a>
+                <a href="#">Contact us</a>
+            </ul>
+        </nav>
+        </div>
+    </header>
+
+    <section class="hero">
+        <div>
+            <h2>Welcome to our Health Fitness page</h2>
+            <p>Focus on where you want to go</p>
+        </div>
+    </section>
+    <section class="testimonial">
+        <p>"This landing page is amazing for health fitness"</p>
+    </section>
+
+    <section class="contact">
+        <h2>Contact Us</h2>
+        <p>Fill out the form below to get in touch with us.</p>
+        <form>
+            <input type="text" placeholder="Your Name">
+            <input type="email" placeholder="Your Email">
+            <textarea placeholder="Your Message"></textarea>
+            <button type="submit">Submit</button>
+        </form>
+    </section>
+
+    <footer class="footer">
+        <p>2023 Thoughts of the day. All rights reserved.</p>
+    </footer>
+
+</body>
+
+</html>
+
