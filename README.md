@@ -1,2 +1,3 @@
 # codsoft web development internship project
-Project Name: Landing page
+Project 1: Landing page
+Project 2: Portfolio
